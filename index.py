@@ -77,8 +77,9 @@ def main() -> int:
         notes_name = f"{data.get('base_name', '')}_notes.md"
         notes_path = raw_root / notes_name
         notes_text = notes_path.read_text(encoding="utf-8", errors="replace").strip() if notes_path.exists() else ""
-        subtitle_path = Path(str((data.get("artifacts") or {}).get("subtitle_srt") or ""))
-        timeline_path = Path(str((data.get("artifacts") or {}).get("timeline_txt") or ""))
+        # Resolve artifacts beside their manifest so clones work on any OS.
+        subtitle_path = raw_root / f"{data.get('base_name', '')}.srt"
+        timeline_path = raw_root / f"{data.get('base_name', '')}_timeline.txt"
         agents = _normalize_agent_sequence(data)
         primary_agent = agents[0] if agents else _normalize_agent_name(str(data.get("agent") or "")) or "codex"
         rel_subtitle = subtitle_path.relative_to(root).as_posix() if subtitle_path.exists() else ""
@@ -86,7 +87,8 @@ def main() -> int:
         body = f"""---
 title: "Lesson: {session_title}"
 type: source
-date: {str(data.get("generated_at") or "1970-01-01")[:10]}
+tags: [tongji-look, course-session]
+date: {str(data.get("lecture_date") or data.get("generated_at") or "1970-01-01")[:10]}
 source_file: raw/sessions/{project_slug}/{session_slug}.md
 agent: {primary_agent}
 agents: [{", ".join(agents)}]
