@@ -1,0 +1,53 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937824",
+  "course_title": "软件工程",
+  "session_title": "2026-10-20第1-3节",
+  "lecture_date": "2026-10-20",
+  "generated_at": "2026-11-12T14:37:38.111030+08:00",
+  "base_name": "97307_1937824",
+  "duration_seconds": 9888.704,
+  "video_url": "../../raw/软件工程/2026-10-20 第1-3节/原始数据/97307_1937824.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-20 第1-3节\\原始数据\\97307_1937824.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-20 第1-3节\\原始数据\\97307_1937824.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-20 第1-3节\\原始数据\\97307_1937824_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-20 第1-3节\\原始数据\\97307_1937824_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-20 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 44917,
+  "chapter_range": "第四章：规定性过程模型 → 第五章：XP 增量发布",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "08:20",
+      "chapter": "第三章衔接与第四章导入",
+      "topics": "通用过程与具体模型的关系"
+    },
+    {
+      "start": "08:20",
+      "end": "84:10",
+      "chapter": "第四章：过程模型",
+      "topics": "瀑布、V 模型、增量、演化式开发与原型"
+    },
+    {
+      "start": "84:10",
+      "end": "85:20",
+      "chapter": "第四章收尾",
+      "topics": "自学安排"
+    },
+    {
+      "start": "85:20",
+      "end": "124:00",
+      "chapter": "第五章：敏捷开发导入",
+      "topics": "敏捷团队、响应变化及变更成本"
+    },
+    {
+      "start": "124:00",
+      "end": "164:49",
+      "chapter": "第五章：极限编程 XP",
+      "topics": "规划、设计、编码、测试、发布与项目速度"
+    }
+  ],
+  "chapter_notes": "婚姻登记原型和系统安全问题为课堂案例。螺旋模型安排自学；Scrum 尚未展开。"
+}

@@ -1,0 +1,39 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937820",
+  "course_title": "软件工程",
+  "session_title": "2026-09-22第1-3节",
+  "lecture_date": "2026-09-22",
+  "generated_at": "2026-11-12T09:01:23.008334+08:00",
+  "base_name": "97307_1937820",
+  "duration_seconds": 9892.992,
+  "video_url": "../../raw/软件工程/2026-09-22 第1-3节/原始数据/97307_1937820.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-22 第1-3节\\原始数据\\97307_1937820.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-22 第1-3节\\原始数据\\97307_1937820.srt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-22 第1-3节\\原始数据\\97307_1937820_notes.md",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-22 第1-3节\\原始数据\\97307_1937820_timeline.txt"
+  },
+  "chapter_range": "第二章：过程框架 → 软件工程实践四步",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "90:47",
+      "chapter": "第二章：软件过程框架",
+      "topics": "框架活动与普适性活动；计划跟踪、风险、质量、度量、配置、复用及工作产品"
+    },
+    {
+      "start": "90:47",
+      "end": "133:30",
+      "chapter": "第二章：过程适应与裁剪",
+      "topics": "按项目特点调整过程"
+    },
+    {
+      "start": "133:30",
+      "end": "164:53",
+      "chapter": "第二章：软件工程实践",
+      "topics": "理解问题、计划解决方案、执行计划、检查结果"
+    }
+  ],
+  "chapter_notes": "风险计算、质量评审、配置管理和项目工具用于展开过程框架；休息时间保留在原时间线。"
+}

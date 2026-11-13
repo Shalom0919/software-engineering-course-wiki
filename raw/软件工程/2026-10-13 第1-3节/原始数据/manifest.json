@@ -1,0 +1,41 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937823",
+  "course_title": "软件工程",
+  "session_title": "2026-10-13第1-3节",
+  "lecture_date": "2026-10-13",
+  "generated_at": "2026-11-12T09:21:45.431922+08:00",
+  "base_name": "97307_1937823",
+  "duration_seconds": 9891.647,
+  "video_url": "../../raw/软件工程/2026-10-13 第1-3节/原始数据/97307_1937823.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-13 第1-3节\\原始数据\\97307_1937823.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-13 第1-3节\\原始数据\\97307_1937823.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-13 第1-3节\\原始数据\\97307_1937823_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-13 第1-3节\\原始数据\\97307_1937823_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-13 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 41332,
+  "chapter_range": "第三章 §3.4：过程模式 → 过程评估与改进、CMM 五级",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "06:15",
+      "chapter": "第三章前文复习",
+      "topics": "§3.1—§3.3 的过程流、框架活动及任务集"
+    },
+    {
+      "start": "06:15",
+      "end": "59:50",
+      "chapter": "第三章 §3.4：过程模式",
+      "topics": "模式组成、分类及 RequirementsUnclear 案例"
+    },
+    {
+      "start": "59:50",
+      "end": "163:15",
+      "chapter": "第三章：过程评估与改进",
+      "topics": "CMM 的位置；二至五级及相应过程域"
+    }
+  ],
+  "chapter_notes": "CMM 过程域是重点展开；139:50—148:10 的智能研发和智能运维为拓展案例。过程评估部分按标题定位，小节号未确认。"
+}

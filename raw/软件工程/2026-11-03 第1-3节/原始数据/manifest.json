@@ -1,0 +1,59 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937826",
+  "course_title": "软件工程",
+  "session_title": "2026-11-03第1-3节",
+  "lecture_date": "2026-11-03",
+  "generated_at": "2026-11-13T08:07:24.869389+08:00",
+  "base_name": "97307_1937826",
+  "duration_seconds": 9900.672,
+  "video_url": "../../raw/软件工程/2026-11-03 第1-3节/原始数据/97307_1937826.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-03 第1-3节\\原始数据\\97307_1937826.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-03 第1-3节\\原始数据\\97307_1937826.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-03 第1-3节\\原始数据\\97307_1937826_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-03 第1-3节\\原始数据\\97307_1937826_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-03 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 38673,
+  "chapter_range": "第七章 §7.2 核心原则复习 → §7.3.3 建模原则中的设计原则结束",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "25:25",
+      "chapter": "§7.2 核心原则复习",
+      "topics": "分解、抽象、一致性、模块化及技术探针"
+    },
+    {
+      "start": "25:25",
+      "end": "42:16",
+      "chapter": "§7.3.1 沟通原则",
+      "topics": "十项原则与需求调研案例"
+    },
+    {
+      "start": "42:16",
+      "end": "75:37",
+      "chapter": "§7.3.2 计划原则",
+      "topics": "范围、估算、风险、粒度、里程碑和变更"
+    },
+    {
+      "start": "75:37",
+      "end": "121:43",
+      "chapter": "§7.3.3 建模原则：分类与敏捷建模",
+      "topics": "四份规约、模型分类及十项敏捷建模原则"
+    },
+    {
+      "start": "121:43",
+      "end": "146:30",
+      "chapter": "§7.3.3 建模原则：需求建模",
+      "topics": "数据、功能、行为模型及其联系"
+    },
+    {
+      "start": "146:30",
+      "end": "165:01",
+      "chapter": "§7.3.3 建模原则：设计建模",
+      "topics": "可追溯性、架构、数据、接口、功能独立和松耦合"
+    }
+  ],
+  "chapter_notes": "工作量估算、项目文档和旅行规划系统为课堂展开案例。§7.3.4 构建原则标题已出现在课件中，本节讲授停在设计原则，构建原则留待后续。时间以录像为准，休息另见时间线。"
+}

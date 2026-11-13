@@ -1,0 +1,310 @@
+[
+  {
+    "id": 101,
+    "time": "00:04:52,590 --> 00:04:54,630",
+    "before": "我们用 LAMW 模型",
+    "after": "我们用 LLM 模型",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 184,
+    "time": "00:08:47,000 --> 00:08:49,900",
+    "before": "一般叫做 requirement the illustration",
+    "after": "一般叫做 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 215,
+    "time": "00:09:49,840 --> 00:09:53,480",
+    "before": "那么有些书上叫做叫做 required gather",
+    "after": "有些书上叫做 Requirements Gathering",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 221,
+    "time": "00:10:10,910 --> 00:10:16,790",
+    "before": "他的 stem one 就是 required diary or required this station",
+    "after": "第一步就是 Requirements Gathering 或 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 264,
+    "time": "00:12:27,840 --> 00:12:33,800",
+    "before": "就说 step one 应该是 requirements gathering or requirement in is inalization",
+    "after": "第一步应该是 Requirements Gathering 或 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 272,
+    "time": "00:12:54,900 --> 00:12:57,420",
+    "before": "第二步往往是做 requirement analysis",
+    "after": "第二步往往是做 Requirements Analysis",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 460,
+    "time": "00:21:46,800 --> 00:21:50,720",
+    "before": "我们第二个叫法就是 requirements and less in the moder",
+    "after": "第二个阶段就是 Requirements Analysis and Modeling",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 462,
+    "time": "00:21:56,390 --> 00:21:57,870",
+    "before": "这个 data mode",
+    "after": "这个 Data Model，数据模型",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 596,
+    "time": "00:27:40,300 --> 00:27:42,780",
+    "before": "或者叫 requirement and less is model",
+    "after": "或者叫 Requirements Analysis and Modeling",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 670,
+    "time": "00:31:45,560 --> 00:31:47,720",
+    "before": "或者叫做 high level desig",
+    "after": "或者叫做 High-Level Design",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 673,
+    "time": "00:32:04,820 --> 00:32:09,920",
+    "before": "第四个叫我们书上讲一下 component 或者叫 CONLEL",
+    "after": "第四个阶段，书上叫 Component-Level Design",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 678,
+    "time": "00:32:46,200 --> 00:32:51,040",
+    "before": "他是一个 component for chinese",
+    "after": "它是一个 Component-Level Design",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 718,
+    "time": "00:34:50,790 --> 00:34:54,230",
+    "before": "可以用 LLLM 来帮我们实现",
+    "after": "可以用 LLM 来帮我们实现",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 728,
+    "time": "00:35:23,680 --> 00:35:27,280",
+    "before": "或者叫 component level desig 都可以",
+    "after": "或者叫 Component-Level Design，都可以",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 785,
+    "time": "00:38:07,860 --> 00:38:09,860",
+    "before": "叫做 integration 。开始",
+    "after": "叫做 Integration Testing，集成测试",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 837,
+    "time": "00:40:36,480 --> 00:40:38,200",
+    "before": "我们要做 system 课程",
+    "after": "我们要做 System Testing",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 864,
+    "time": "00:41:51,030 --> 00:41:54,670",
+    "before": "所以说我们的 system 特点不仅仅考虑方形",
+    "after": "所以我们的 System Testing 不仅仅考虑功能",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 874,
+    "time": "00:42:30,520 --> 00:42:32,720",
+    "before": "第六章 excet test",
+    "after": "第九步，Acceptance Testing",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 918,
+    "time": "00:51:39,340 --> 00:51:41,480",
+    "before": "supports 或者叫 MAINTAINOUS",
+    "after": "Support，或者叫 Maintenance",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 919,
+    "time": "00:51:41,480 --> 00:51:43,860",
+    "before": "support 或者叫 MAINTAINOUS",
+    "after": "Support，或者叫 Maintenance",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 920,
+    "time": "00:51:44,260 --> 00:51:48,420",
+    "before": "就是到运维阶段 support of maintainous",
+    "after": "就是到运维阶段，Support 或 Maintenance",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 932,
+    "time": "00:52:21,550 --> 00:52:25,320",
+    "before": "那么第一个是从我们的 requirement education",
+    "after": "第一个是 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 933,
+    "time": "00:52:25,320 --> 00:52:29,890",
+    "before": "到我们的 required alysis modeling 到 high level design motor",
+    "after": "到 Requirements Analysis and Modeling，到 High-Level Design",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 939,
+    "time": "00:52:37,940 --> 00:52:43,380",
+    "before": "还有 coding 、 unit testing 、 integration testing 、 system testing 、 acceptable testing",
+    "after": "还有 Coding、Unit Testing、Integration Testing、System Testing、Acceptance Testing",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 969,
+    "time": "00:53:58,870 --> 00:54:00,770",
+    "before": "是一个 standard processor",
+    "after": "是一个 Standard Process",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1001,
+    "time": "00:55:14,850 --> 00:55:16,910",
+    "before": "都是基于这个 standard dot process",
+    "after": "都是基于这个 Standard Process",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1035,
+    "time": "00:57:23,180 --> 00:57:25,620",
+    "before": "好，我们的第三张是叫双的 process",
+    "after": "第三章是 Software Process",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1039,
+    "time": "00:57:38,360 --> 00:57:41,760",
+    "before": "他就讲双弧微元 process 是三角",
+    "after": "第三章讲 Software Process",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1042,
+    "time": "00:57:49,530 --> 00:57:53,620",
+    "before": "那么分析一下 process struction 的结构",
+    "after": "分析一下 Process Structure，过程的结构",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1044,
+    "time": "00:57:57,620 --> 00:57:59,460",
+    "before": "这个 F 是 process mode",
+    "after": "第四章是 Process Models",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1050,
+    "time": "00:58:20,350 --> 00:58:23,230",
+    "before": "所以我们这里要讲 process mode",
+    "after": "所以这里要讲 Process Models",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1058,
+    "time": "00:58:43,680 --> 00:58:48,180",
+    "before": "所以我们这里会讲一个 process mode 啊",
+    "after": "这里会讲 Process Models",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1108,
+    "time": "01:01:09,070 --> 01:01:11,030",
+    "before": "我们做 required a station",
+    "after": "我们做 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1116,
+    "time": "01:01:28,530 --> 01:01:32,250",
+    "before": "Jub eight just understanding requirements",
+    "after": "第八章是 Understanding Requirements",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1123,
+    "time": "01:02:10,710 --> 01:02:14,550",
+    "before": "这样就是 requirements gathered all cristg 啊",
+    "after": "就是 Requirements Gathering 或 Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1137,
+    "time": "01:03:01,030 --> 01:03:03,590",
+    "before": "需求分析 requirement anless mode 学分析",
+    "after": "需求分析，Requirements Analysis and Modeling",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1177,
+    "time": "01:05:13,790 --> 01:05:17,280",
+    "before": "第八章对于我们这个快门的 in station",
+    "after": "第八章对应 Requirements Elicitation",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1840,
+    "time": "02:00:38,690 --> 02:00:41,650",
+    "before": "就我在那里主要是做 AOS",
+    "after": "我在那里主要是做 AIOps",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1841,
+    "time": "02:00:41,650 --> 02:00:43,510",
+    "before": "AOS 就是做满天的思路",
+    "after": "AIOps 就是做智能运维",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 1980,
+    "time": "02:06:16,560 --> 02:06:17,900",
+    "before": "ai pos",
+    "after": "AIOps",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 2358,
+    "time": "02:23:21,740 --> 02:23:25,460",
+    "before": "叫做需求柜员叫 requirement 的 specification",
+    "after": "叫做需求规约，Requirements Specification",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 2359,
+    "time": "02:23:25,460 --> 02:23:30,300",
+    "before": "得到一个需求柜员得到一个需求柜员叫 requirements",
+    "after": "得到一个需求规约，Requirements",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 2366,
+    "time": "02:23:47,860 --> 02:23:51,860",
+    "before": "你得到一个 required analysis stack 分析",
+    "after": "得到一个需求分析规约",
+    "basis": "课堂上下文及术语对应关系"
+  },
+  {
+    "id": 2368,
+    "time": "02:23:54,770 --> 02:23:57,930",
+    "before": "就 requirement analyst specification",
+    "after": "就是 Requirements Analysis Specification",
+    "basis": "课堂上下文及术语对应关系"
+  }
+]

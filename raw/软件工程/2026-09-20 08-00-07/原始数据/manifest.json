@@ -1,0 +1,35 @@
+{
+  "course_id": "97307",
+  "sub_id": "1983155",
+  "course_title": "软件工程",
+  "session_title": "2026-09-20第08:00:07",
+  "lecture_date": "2026-09-20",
+  "generated_at": "2026-11-12T14:17:55.768677+08:00",
+  "base_name": "97307_1983155",
+  "duration_seconds": 9888.768,
+  "video_url": "../../raw/软件工程/2026-09-20 08-00-07/原始数据/97307_1983155.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-20 08-00-07\\原始数据\\97307_1983155.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-20 08-00-07\\原始数据\\97307_1983155.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-20 08-00-07\\原始数据\\97307_1983155_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-20 08-00-07\\原始数据\\97307_1983155_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-20 08-00-07\\原始数据\\slides"
+  },
+  "subtitle_word_count": 40626,
+  "chapter_range": "第一章：软件应用与演化 → 第二章：软件过程的基本组成",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "84:10",
+      "chapter": "第一章",
+      "topics": "软件应用领域、遗留软件、Web／移动应用、云计算和软件产品线"
+    },
+    {
+      "start": "84:10",
+      "end": "164:49",
+      "chapter": "第二章：软件工程",
+      "topics": "软件工程定义、分层技术、软件过程及 Activity—Action—Task"
+    }
+  ],
+  "chapter_notes": "云平台架构、智能运维与变更风险属于拓展；回归测试用例维护用于解释工程方法。"
+}

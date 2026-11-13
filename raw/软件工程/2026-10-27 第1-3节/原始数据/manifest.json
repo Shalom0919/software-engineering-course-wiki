@@ -1,0 +1,71 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937825",
+  "course_title": "软件工程",
+  "session_title": "2026-10-27第1-3节",
+  "lecture_date": "2026-10-27",
+  "generated_at": "2026-11-12T20:25:19.959866+08:00",
+  "base_name": "97307_1937825",
+  "duration_seconds": 9891.711,
+  "video_url": "../../raw/软件工程/2026-10-27 第1-3节/原始数据/97307_1937825.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-27 第1-3节\\原始数据\\97307_1937825.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-27 第1-3节\\原始数据\\97307_1937825.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-27 第1-3节\\原始数据\\97307_1937825_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-27 第1-3节\\原始数据\\97307_1937825_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-10-27 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 42992,
+  "chapter_range": "第五章：XP 复习 → 第七章 §7.3.1 沟通原则导入",
+  "chapter_segments": [
+    {
+      "start": "07:53",
+      "end": "26:30",
+      "chapter": "第五章：XP 复习",
+      "topics": "故事、设计、编码、测试、集成与发布"
+    },
+    {
+      "start": "27:40",
+      "end": "65:10",
+      "chapter": "第五章：Scrum",
+      "topics": "Sprint、Backlog、角色、燃尽图、计划、每日会议、评审和回顾"
+    },
+    {
+      "start": "65:20",
+      "end": "87:35",
+      "chapter": "第五章扩展：DevOps／DevSecOps",
+      "topics": "开发运维反馈、安全左移与环境迁移"
+    },
+    {
+      "start": "87:35",
+      "end": "95:18",
+      "chapter": "第五章收尾与第七章导入",
+      "topics": "练习要求及第一至五章知识主线"
+    },
+    {
+      "start": "119:49",
+      "end": "134:15",
+      "chapter": "第七章 §7.1—§7.2 导入",
+      "topics": "工程实践、核心原则、过程与实践两个层次"
+    },
+    {
+      "start": "134:15",
+      "end": "147:30",
+      "chapter": "第七章 §7.2.1：指导过程的原则",
+      "topics": "八项过程原则与敏捷工作产品"
+    },
+    {
+      "start": "147:30",
+      "end": "162:50",
+      "chapter": "第七章 §7.2.2：指导实践的原则",
+      "topics": "八项实践原则"
+    },
+    {
+      "start": "162:50",
+      "end": "164:52",
+      "chapter": "第七章 §7.3.1：沟通原则（导入）",
+      "topics": "倾听与事前准备；后续继续"
+    }
+  ],
+  "chapter_notes": "第六章课堂跳过。DevOps／DevSecOps 为结合新版与补充材料展开的内容；基础环境替换、项目方案和工具示例单列为案例。"
+}

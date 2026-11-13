@@ -1,0 +1,25 @@
+
+.env
+state/
+__pycache__/
+*.pyc
+.DS_Store
+
+
+# Local credentials and editor state
+.env.*
+*.pem
+*.key
+.obsidian/workspace*.json
+# Large recordings stay local
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.mkv
+*.webm
+# Generated website (rebuild from sources)
+site/
+
+# Transcription service task handles
+asr_task.json

@@ -1,0 +1,36 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937819",
+  "course_title": "软件工程",
+  "session_title": "2026-09-15第1-3节",
+  "base_name": "97307_1937819",
+  "duration_seconds": 9889.727,
+  "artifacts": {
+    "srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819.srt",
+    "txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819_notes.md",
+    "timeline": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819_timeline.txt",
+    "slides": "",
+    "video": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819.mp4",
+    "audio": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-9-3 2026-09-15第1-3节\\原始数据\\97307_1937819.mp3"
+  },
+  "lecture_date": "2026-09-15",
+  "generated_at": "2026-11-11T16:12:23.354278+08:00",
+  "video_url": "../../raw/软件工程/2026-9-3 2026-09-15第1-3节/原始数据/97307_1937819.mp4",
+  "chapter_range": "课程导论 → 第一章：软件的组成与故障率特征",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "134:28",
+      "chapter": "课程导论",
+      "topics": "开发全过程、课程章节安排、维护及工程问题"
+    },
+    {
+      "start": "134:28",
+      "end": "154:08",
+      "chapter": "第一章：软件与软件工程导入",
+      "topics": "软件的三个组成部分；硬件与软件故障率曲线"
+    }
+  ],
+  "chapter_notes": "开发阶段与后续章节的对应属于全课预览，不表示已讲完那些章节。维护、AI 辅助开发等作为导论案例。"
+}

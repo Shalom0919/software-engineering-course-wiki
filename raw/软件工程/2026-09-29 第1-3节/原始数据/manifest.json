@@ -1,0 +1,51 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937821",
+  "course_title": "软件工程",
+  "session_title": "2026-09-29第1-3节",
+  "lecture_date": "2026-09-29",
+  "generated_at": "2026-11-12T09:10:14.368569+08:00",
+  "base_name": "97307_1937821",
+  "duration_seconds": 9889.792,
+  "video_url": "../../raw/软件工程/2026-09-29 第1-3节/原始数据/97307_1937821.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-29 第1-3节\\原始数据\\97307_1937821.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-29 第1-3节\\原始数据\\97307_1937821.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-29 第1-3节\\原始数据\\97307_1937821_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-09-29 第1-3节\\原始数据\\97307_1937821_notes.md"
+  },
+  "chapter_range": "第二章：实践原则与软件误区 → 第三章 §3.4 过程模式导入",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "66:00",
+      "chapter": "第二章收尾",
+      "topics": "实践四步复习、一般实践原则、软件误区"
+    },
+    {
+      "start": "66:00",
+      "end": "79:00",
+      "chapter": "第三章 §3.1：通用过程模型与过程流",
+      "topics": "线性、迭代、演化和并行过程流"
+    },
+    {
+      "start": "79:00",
+      "end": "127:00",
+      "chapter": "第三章 §3.2：定义框架活动",
+      "topics": "活动的内容与裁剪"
+    },
+    {
+      "start": "127:00",
+      "end": "163:00",
+      "chapter": "第三章 §3.3：识别任务集",
+      "topics": "任务集、里程碑；大小项目的需求获取任务对照"
+    },
+    {
+      "start": "163:00",
+      "end": "课程结束",
+      "chapter": "第三章 §3.4：过程模式（导入）",
+      "topics": "提出复用已验证解决方法的思路"
+    }
+  ],
+  "chapter_notes": "第二章的一般实践原则与第七章的系统展开分开记录。末尾过程模式只作导入，10 月 13 日继续详讲。"
+}
