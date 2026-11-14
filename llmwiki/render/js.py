@@ -1053,9 +1053,44 @@ JS = r"""// llmwiki viewer — theme + copy + search palette + keyboard shortcut
     document.querySelectorAll("[data-artplayer]").forEach(function (node) {
       const rawVideoSrc = node.getAttribute("data-video-src") || "";
       const videoSrc = resolveVideoSrc(rawVideoSrc);
-      if (!videoSrc || !window.Artplayer) return;
+      if (!videoSrc) return;
       const subtitleSrc = node.getAttribute("data-subtitle-src") || "";
       const subtitlePrefs = loadSubtitlePrefs();
+      function nativePlayer() {
+        node.replaceChildren();
+        const video = document.createElement("video");
+        video.controls = true;
+        video.preload = "metadata";
+        video.playsInline = true;
+        video.style.cssText = "width:100%;height:100%;background:#000";
+        video.src = videoSrc;
+        const status = document.createElement("p");
+        status.setAttribute("role", "status");
+        status.textContent = subtitleSrc ? "中文字幕加载中…" : "本节暂无字幕";
+        node.parentElement.appendChild(status);
+        if (subtitleSrc) {
+          const track = document.createElement("track");
+          track.kind = "subtitles";
+          track.label = "中文（课堂转写）";
+          track.srclang = "zh";
+          track.default = true;
+          track.src = subtitleSrc.replace(/\.srt$/i, ".vtt");
+          track.addEventListener("load", function () {
+            track.track.mode = "showing";
+            status.textContent = "中文字幕已开启 · 可通过播放器字幕菜单关闭";
+          });
+          track.addEventListener("error", function () {
+            status.textContent = "字幕加载失败，请通过本地服务打开课程页面后刷新。";
+          });
+          video.appendChild(track);
+        }
+        video.addEventListener("error", function () {
+          status.textContent = "视频加载失败，请检查本地录像文件是否存在。";
+        });
+        node.appendChild(video);
+        window.__lookTongjiArt = {video: video, play: function () {return video.play();}};
+      }
+      if (!window.Artplayer) { nativePlayer(); return; }
       try {
         let art = null;
         const options = {
@@ -1072,15 +1107,16 @@ JS = r"""// llmwiki viewer — theme + copy + search palette + keyboard shortcut
         if (subtitleSrc) {
           options.subtitle = {
             url: subtitleSrc,
-            type: "srt",
+            type: /\.vtt$/i.test(subtitleSrc) ? "vtt" : "srt",
             style: buildSubtitleStyle(subtitlePrefs)
           };
           options.settings = createSubtitleSettings(function () { return art; }, subtitlePrefs);
         }
         art = new window.Artplayer(options);
+        art.subtitle.show = true;
         applySubtitleStyle(art, subtitlePrefs);
         window.__lookTongjiArt = art;
-      } catch (e) {}
+      } catch (e) { nativePlayer(); }
     });
     document.querySelectorAll(".tongji-timeline-item[data-seek]").forEach(function (node) {
       node.addEventListener("click", function () {

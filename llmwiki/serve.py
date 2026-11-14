@@ -7,6 +7,7 @@ to the network unless the user explicitly passes --host 0.0.0.0.
 from __future__ import annotations
 
 import http.server
+import re
 import ssl
 import socketserver
 import urllib.error
@@ -35,6 +36,51 @@ class _QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, format: str, *args) -> None:  # noqa: A002
         # Suppress per-request logs for a cleaner terminal.
         return
+
+    def send_head(self):
+        self._remaining = None
+        path = Path(self.translate_path(self.path))
+        value = self.headers.get("Range")
+        if not value or not path.is_file():
+            return super().send_head()
+        size = path.stat().st_size
+        match = re.fullmatch(r"bytes=(\d*)-(\d*)", value.strip())
+        if not match or not any(match.groups()):
+            self.send_error(400, "Invalid byte range")
+            return None
+        first, last = match.groups()
+        start = int(first) if first else max(0, size - int(last))
+        end = min(int(last), size - 1) if first and last else size - 1
+        if start > end or start >= size:
+            self.send_response(416)
+            self.send_header("Content-Range", f"bytes */{size}")
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return None
+        stream = path.open("rb")
+        stream.seek(start)
+        self._remaining = end - start + 1
+        self.send_response(206)
+        self.send_header("Content-Type", self.guess_type(str(path)))
+        self.send_header("Content-Length", str(self._remaining))
+        self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
+        self.send_header("Accept-Ranges", "bytes")
+        self.end_headers()
+        return stream
+
+    def copyfile(self, source, outputfile):
+        try:
+            if self._remaining is None:
+                return super().copyfile(source, outputfile)
+            remaining = self._remaining
+            while remaining:
+                chunk = source.read(min(65536, remaining))
+                if not chunk:
+                    break
+                outputfile.write(chunk)
+                remaining -= len(chunk)
+        except (BrokenPipeError, ConnectionResetError, ConnectionAbortedError):
+            pass  # Seeking or closing a video cancels the previous request.
 
     def do_HEAD(self) -> None:  # noqa: N802
         if self.path.startswith(_VIDEO_PROXY_PATH):
@@ -122,7 +168,8 @@ class _QuietHandler(http.server.SimpleHTTPRequestHandler):
             self.send_error(502, f"video proxy failed: {exc}")
 
 
-class _ReusableTCPServer(socketserver.TCPServer):
+class _ReusableTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
     allow_reuse_address = True
 
 

@@ -20,7 +20,7 @@
 python -m pip install markdown
 python index.py
 python -m llmwiki build --out ./site
-python -m http.server 8765 --directory site
+python -m llmwiki serve --port 8765
 ```
 
 打开 http://localhost:8765 。

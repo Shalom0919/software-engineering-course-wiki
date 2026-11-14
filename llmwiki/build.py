@@ -945,6 +945,9 @@ def _session_media_block(meta: dict[str, Any]) -> str:
     subtitle_src = ""
     if subtitle_rel:
         subtitle_src = "../../" + subtitle_rel
+        vtt_rel = str(Path(subtitle_rel).with_suffix(".vtt")).replace("\\", "/")
+        if (REPO_ROOT / vtt_rel).is_file():
+            subtitle_src = "../../" + vtt_rel
     if not video_url and not timeline_items:
         return ""
     timeline_html = "".join(
@@ -960,7 +963,7 @@ def _session_media_block(meta: dict[str, Any]) -> str:
         if video_url else '<div class="tongji-player tongji-player-empty"><p class="muted">暂无课程视频链接。</p></div>'
     )
     return f"""<section class="tongji-media-shell">
-  <details class="tongji-media-details">
+  <details class="tongji-media-details" open>
     <summary><span class="tongji-summary-label">课程视频</span><span class="tongji-summary-caret" aria-hidden="true"><svg class="tongji-caret-down" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg><svg class="tongji-caret-up" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></span></summary>
     <div class="tongji-media-grid">
       <div class="tongji-player-wrap">{player}</div>
@@ -1215,7 +1218,7 @@ def page_foot(js_prefix: str = "") -> str:
     __llmwikiRenderMath();
   }}
 </script>
-<script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js" defer></script>
 <script src="{js_prefix}script.js"></script>
 </body>
 </html>
