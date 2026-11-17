@@ -1,0 +1,71 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937827",
+  "course_title": "软件工程",
+  "session_title": "2026-11-10第1-3节",
+  "lecture_date": "2026-11-10",
+  "generated_at": "2026-11-14T22:05:20.311809+08:00",
+  "base_name": "97307_1937827",
+  "duration_seconds": 9892.16,
+  "video_url": "../../raw/软件工程/2026-11-10 第1-3节/原始数据/97307_1937827.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-10 第1-3节\\原始数据\\97307_1937827.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-10 第1-3节\\原始数据\\97307_1937827.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-10 第1-3节\\原始数据\\97307_1937827_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-10 第1-3节\\原始数据\\97307_1937827_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-10 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 43620,
+  "chapter_range": "第七章 §7.3.4 构建原则 → 第八章 §8.5.1 分析模型要素（行为元素）",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "16:00",
+      "chapter": "§7.3.4 构建原则：测试层次导入",
+      "topics": "单元测试、集成测试（功能独立性与松耦合、参数区间组合）、系统测试与验收测试"
+    },
+    {
+      "start": "16:00",
+      "end": "53:35",
+      "chapter": "§7.3.4 构建原则：编码原则与重构",
+      "topics": "准备、编码（测试先行、结对编程、数据结构、接口、循环边界测试）、走查与七类代码重构"
+    },
+    {
+      "start": "53:35",
+      "end": "70:55",
+      "chapter": "§7.3.4 构建原则：测试原则",
+      "topics": "Driver/Stub、九项测试原则、80/20 Pareto 规则、穷尽测试不可行与故障密度"
+    },
+    {
+      "start": "70:55",
+      "end": "87:25",
+      "chapter": "§7.3.5 部署原则与 §7.4 工作实践",
+      "topics": "部署五项原则；工作实践十个核心概念（接口、模板、分层、复杂度、哈希、缓存、并发、云、数据库）"
+    },
+    {
+      "start": "87:25",
+      "end": "94:35",
+      "chapter": "第八章 §8.1 需求工程概述",
+      "topics": "两大活动、七个任务（启动、获取、细化、协商、规约、验证、管理）与两份工作产品"
+    },
+    {
+      "start": "110:40",
+      "end": "121:30",
+      "chapter": "课程项目安排与课堂交流",
+      "topics": "往届“旅途印记”参考项目、组队要求与下周大模型需求工程实践演示"
+    },
+    {
+      "start": "121:30",
+      "end": "151:15",
+      "chapter": "§8.2 建立基础与 §8.3 需求获取",
+      "topics": "启动五项任务与 NFR/QFD；SafeHome 案例与名词/服务/约束识别、用例图草稿"
+    },
+    {
+      "start": "151:15",
+      "end": "164:52",
+      "chapter": "§8.5 构建分析模型",
+      "topics": "细化（Elaboration）与三大模型：功能模型、类/数据模型、行为模型（系统级与类级状态图）"
+    }
+  ],
+  "chapter_notes": "期末排课数据结构题、SafeHome 家庭安防系统与 StudentGrade 状态图为例题与课堂案例。§8.3.2 QFD 与 §8.4 协商等细节未逐项展开，分析模型将在后续课程继续详讲。时间以录像为准，课间休息见时间线。"
+}

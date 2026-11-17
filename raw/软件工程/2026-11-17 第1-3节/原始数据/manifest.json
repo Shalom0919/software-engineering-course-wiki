@@ -1,0 +1,65 @@
+{
+  "course_id": "97307",
+  "sub_id": "1937828",
+  "course_title": "软件工程",
+  "session_title": "2026-11-17第1-3节",
+  "lecture_date": "2026-11-17",
+  "generated_at": "2026-11-17T15:33:22.080319+08:00",
+  "base_name": "97307_1937828",
+  "duration_seconds": 9888.768,
+  "video_url": "../../raw/软件工程/2026-11-17 第1-3节/原始数据/97307_1937828.mp4",
+  "artifacts": {
+    "transcript_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-17 第1-3节\\原始数据\\97307_1937828.txt",
+    "subtitle_srt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-17 第1-3节\\原始数据\\97307_1937828.srt",
+    "timeline_txt": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-17 第1-3节\\原始数据\\97307_1937828_timeline.txt",
+    "notes": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-17 第1-3节\\原始数据\\97307_1937828_notes.md",
+    "slides_dir": "C:\\Users\\Aemeath\\Helper\\2027\\SE\\course-wiki\\raw\\软件工程\\2026-11-17 第1-3节\\原始数据\\slides"
+  },
+  "subtitle_word_count": 39350,
+  "chapter_range": "第八章 §8.1—§8.6 需求工程收尾 → 第十章 §10.1 识别分析类",
+  "chapter_segments": [
+    {
+      "start": "00:00",
+      "end": "27:50",
+      "chapter": "第八章收尾：需求工程七个动作与验证管理",
+      "topics": "复习启动至细化，详讲协商（Win-Win）、规约、验证（静态测试/FTR）与配置管理（SCM）"
+    },
+    {
+      "start": "27:50",
+      "end": "45:20",
+      "chapter": "第九章 §9.1 需求分析目标与经验规则",
+      "topics": "四类建模视图、三大总体目标、分析经验规则（抽象层次、不涉及具体技术栈、低耦合）"
+    },
+    {
+      "start": "50:45",
+      "end": "73:10",
+      "chapter": "§9.1.3 领域分析（Domain Analysis）",
+      "topics": "领域分析作为普适活动、类复用标准、图像瑕疵检测/银行案例与 UML 演化"
+    },
+    {
+      "start": "73:10",
+      "end": "94:55",
+      "chapter": "§9.2 场景建模：用例图与四种关系",
+      "topics": "Actor vs User、用例功能独立性与“>1个分析类”原则、子系统、关联/泛化/包含/扩展/依赖"
+    },
+    {
+      "start": "119:40",
+      "end": "134:15",
+      "chapter": "用例脚本（Use Case Script）与案例",
+      "topics": "前置/后置条件、基本流/分支流/异常流（系统登录、图书借阅、SafeHome 修正）"
+    },
+    {
+      "start": "134:15",
+      "end": "145:40",
+      "chapter": "功能建模：活动图与泳道图（Swimlane）",
+      "topics": "从用例脚本画活动图，再按参与类切分为泳道图并与类图迭代"
+    },
+    {
+      "start": "145:40",
+      "end": "164:50",
+      "chapter": "第十章 §10.1 基于类的建模：识别分析类",
+      "topics": "语法分析（名词/动词、解空间 vs 问题空间）、分析类 7 种表现形式与 SafeHome 示例"
+    }
+  ],
+  "chapter_notes": "教材第九章与第十/十一章内容划分在课堂中按“场景建模（用例图）→功能建模（活动图/泳道图）→类建模→行为建模”重组讲授。下周第 11 周起各小组将在实践课汇报项目需求规约。时间以录像为准，课间休息见时间线。"
+}
